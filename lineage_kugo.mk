@@ -19,13 +19,12 @@ TARGET_BOOTANIMATION_SIZE := 720p
 $(call inherit-product, device/sony/kugo/aosp_f5321.mk)
 
 # Override Product Name
-PRODUCT_NAME := omni_kugo
+PRODUCT_NAME := lineage_kugo
 PRODUCT_MODEL := Xperia X Compact
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := none
 
 # Inherit rom parts
-$(call inherit-product, device/sony/common/omni.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, device/sony/common/lineage.mk)
 
