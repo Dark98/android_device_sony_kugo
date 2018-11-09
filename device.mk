@@ -120,3 +120,6 @@ $(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
 
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/loire-common/loire-partial.mk)
+
+#include GAPPS
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
