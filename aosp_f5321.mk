@@ -18,6 +18,8 @@ TARGET_KERNEL_CONFIG := aosp_loire_kugo_defconfig
 $(call inherit-product, device/sony/kugo/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+# DarkOS config
+$(call inherit-product, vendor/dark/config/common.mk)
 
 PRODUCT_NAME := aosp_f5321
 PRODUCT_DEVICE := kugo
