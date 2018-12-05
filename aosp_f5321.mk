@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := aosp_loire_kugo_defconfig
+TARGET_KERNEL_CONFIG := dark_kugo_defconfig
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/kugo/device.mk)
